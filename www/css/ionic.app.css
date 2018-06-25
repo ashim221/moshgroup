@@ -4492,12 +4492,10 @@ a.subdued {
   margin-top: -2px;
   border-style: solid;
   border-width: 2px 0 0 0;
-  border-color: #444;
-  color:#ee6129; }
+  border-color: #444; }
   .tabs-striped .tab-item.tab-item-active .badge, .tabs-striped .tab-item.active .badge, .tabs-striped .tab-item.activated .badge {
     top: 2px;
-    opacity: 1;
-    color:#ee6129 !important; }
+    opacity: 1; }
 
 .tabs-striped.tabs-light .tabs {
   background-color: #fff; }
@@ -5201,12 +5199,11 @@ ion-tabs.tabs-striped.tabs-color-active-dark .tab-item.tab-item-active, ion-tabs
 .tab-item.tab-item-active,
 .tab-item.active,
 .tab-item.activated {
-  opacity: 1;
-  color:#ee6129; }
+  opacity: 1; }
   .tab-item.tab-item-active.tab-item-light,
   .tab-item.active.tab-item-light,
   .tab-item.activated.tab-item-light {
-    color:#ee6129; }
+    color: #fff; }
   .tab-item.tab-item-active.tab-item-stable,
   .tab-item.active.tab-item-stable,
   .tab-item.activated.tab-item-stable {
