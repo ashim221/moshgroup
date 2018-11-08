@@ -1,12 +1,14 @@
-<ion-view title="Personal Training Enquiry" id="page2">
-  <ion-content padding="true" class="has-header">
+<ion-view title="Personal Training Enquiry" id="page1">
+
+  <ion-content padding="true">
     
+    <a href="#/home" style="text-decoration: none;"><button class="button-small button-positive button">Back</button></a>
    <div class = "row">
    <div class = "col col-25">
       <img src="img/yourpt.jpeg" style="display: block; width: 95%;" >
      </div>
     <div class = "col col-50" style="text-align: center;">
-      <img src="img/fKRtkjMGSLaR6PbP6ujP_logo-1.png"style="display: block; width: 35%; height: auto; margin-left: auto; margin-right: auto;">
+      <img src="img/fKRtkjMGSLaR6PbP6ujP_logo-1.png"style="display: block; width: 33%; height: auto; margin-left: auto; margin-right: auto;">
      </div>
     <div class = "col col-25" style="text-align: right;padding-left: 10%;">
       <img src="img/better.png" style="display: block; width: 65%;">
@@ -16,7 +18,7 @@
     
     <div id="contactMe-markdown1" style="text-align:center;" class="show-list-numbers-and-dots">
      <h1>Personal Training Enquiry</h1>
-      <p style="color:#ee6129;font-size:18px;">REGISTER FOR YOUR FREE FITNESS
+      <p style="color:#ee6129;font-size:22px;">REGISTER FOR YOUR FREE FITNESS
         <br> CONSULTATION </p>
         
     </div>
@@ -41,9 +43,29 @@
      
         <p ng-show="wrong===true"><pre style="color: #f00;">{{wrongMessage}}</pre></p>
     <div id="contactMe-markdown3" style="text-align:center;" class="show-list-numbers-and-dots">
-      <p style="color:#000000;font-size:16px;">By registering you accept our <a href="#/page1/privacy-policy">Privacy Policy</a></p>
+      <p style="color:#000000;font-size:22px;">By registering you accept our <a href="#/page1/privacy-policy">Privacy Policy</a></p>
     </div>
     <button type="submit" id="contactMe-button1" class="button button-positive button-block" ng-disabled="contactMe-form1.$invalid">Register</button>
     </form>
   </ion-content>
+
 </ion-view>
+<style>
+textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"]{
+  font-size: 20px !important;
+  line-height: 22px !important;
+}
+.input-label
+{
+  font-size: 22px !important;
+}
+.button
+{
+  font-size: 22px !important;
+}
+.tab-title
+{
+  font-size: 16px !important;
+}
+
+</style>

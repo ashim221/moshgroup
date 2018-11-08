@@ -19,14 +19,11 @@ angular.module('app.routes', [])
     }
   })
 
-  .state('tabsController.profile', {
-    url: '/Profile',
-    views: {
-      'tab2': {
+  .state('profile', {
+    url: '/profile',
+    
         templateUrl: 'templates/profile.html',
         controller: 'profileCtrl'
-      }
-    }
   })
 
   .state('tabsController.privacyPolicy', {
@@ -44,8 +41,14 @@ angular.module('app.routes', [])
     templateUrl: 'templates/tabsController.html',
     abstract:true
   })
+  .state('mainPage', {
+    url: '/home',
+    templateUrl: 'templates/home.html',
+    controller: 'homeCtrl'
+  })
 
-$urlRouterProvider.otherwise('/page1/personal-training-enquiry')
+
+$urlRouterProvider.otherwise('/home')
 
 
 });

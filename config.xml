@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="london.moshfitness.www" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>Mosh Fitness</name>
+    <name>Mosh Fitness Leads</name>
     <description>Be fit joining Mosh Group</description>
     <author email="ashim@justashim.com" href="https://justashim.com/">Just Ashim</author>
     <content src="index.html" />
@@ -83,5 +83,5 @@
     <plugin name="cordova-plugin-ionic-keyboard" spec="~2.0.5" />
     <plugin name="cordova-plugin-x-toast" spec="~2.6.2" />
     <engine name="android" spec="7.0.0" />
-    <engine name="ios" spec="^4.5.4" />
+    <engine name="ios" spec="^4.5.5" />
 </widget>
